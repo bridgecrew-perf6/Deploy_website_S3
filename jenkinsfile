@@ -21,7 +21,7 @@ pipeline {
 
                     pwd(); //Log current directory
 
-                    withAWS(region:'us-east-1',credentials:'18a9ad57-22ad-4d15-9dda-391bccb8fc13') {
+                    withAWS(region:'ap-northeast-1',credentials:'Testing-jenkins-trungphung') {
 
                         def identity=awsIdentity();//Log AWS credentials
 
