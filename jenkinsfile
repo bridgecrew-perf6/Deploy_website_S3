@@ -8,7 +8,7 @@ pipeline {
       steps {
         git branch: "main",
           //credentialsId: 'cfd6c76a-406c-4a8f-af8c-13d907ef0d4b',
-          //credentialsId: '12345-1234-4696-af25-123455',
+          credentialsId: 'testing',
           url: 'git@github.com:phungthetrung11t2/Deploy_website_S3.git'
       }
     }
